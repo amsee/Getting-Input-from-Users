@@ -1,0 +1,8 @@
+# Getting a String Input from Users
+
+# Store the user input in variables
+first_name = input("Enter your name: ")
+last_name = input("Enter your last name: ")
+
+# Output the strings + variables while capitalizing the first character from the string input
+print("Hello " + first_name.capitalize() + " " + last_name.capitalize() + "!")
